@@ -2,7 +2,7 @@
 ******************************************************************************************************************************
 # Web Scraping on Multiple Websites 
 
-In this repo I will be performing web Scraping on multiple websites and do exploratory analysis. Please reach out if you have any feedbacks or would like to collabrate on this exicting project.
+In this repo I will be performing web Scraping on multiple websites and do exploratory analysis. Please reach out if you have any feedbacks or would like to collaborate on this exicting project.
 
 ******************************************************************************************************************************
 ******************************************************************************************************************************
