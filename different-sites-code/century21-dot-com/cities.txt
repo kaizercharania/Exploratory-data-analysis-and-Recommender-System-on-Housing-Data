@@ -1,0 +1,102 @@
+oakland
+alameda
+albany
+el
+mountain view
+american
+san leandro
+emeryville
+napa
+san mateo
+fairfax
+newark
+san pablo
+antioch
+fairfield
+novato
+san rafael
+atherton
+foster city
+oakland
+san ramon
+belmont
+fremont
+oakley
+santa clara
+belvedere
+gilroy
+orinda
+santa rosa
+benicia
+half moon bay
+pacifica
+saratoga
+berkeley
+hayward
+palo alto
+sausalito
+brentwood
+healdsburg
+petaluma
+sebastopol
+brisbane
+hercules
+piedmont
+sonoma
+burlingame
+hillsborough
+pinole
+south san francisco
+calistoga
+lafayette
+pittsburg
+st. helena
+campbell
+larkspur
+pleasant hill
+suisun city
+clayton
+livermore
+pleasanton
+sunnyvale
+cloverdale
+los altos
+portola valley
+tiburon
+colma
+los altos hills
+redwood city
+union city
+concord
+los gatos
+richmond
+vacaville
+corte madera
+martinez
+rio vista
+vallejo
+cotati
+menlo park
+rohnert park
+walnut creek
+cupertino
+mill valley
+ross
+windsor
+daly city
+millbrae
+san anselmo
+woodside
+danville
+milpitas
+san bruno
+yountville
+dixon
+monte sereno
+san carlos 
+dublin
+moraga
+san francisco 
+east palo alto
+morgan hill
+san jose
