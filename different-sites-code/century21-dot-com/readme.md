@@ -9,7 +9,7 @@ import lxml
 ```
 2.We need a list of cities for which we are going to scrape.
  * We need to understand the pattern of the url. The site century21 needs:
- * domain_name/ + "city name" + "-" + "state_initials ('ca' in this case)"/ + "LCCA"+ "city name in CAPS"/
+ * <b>domain_name/ + "city name" + "-" + "state_initials ('ca' in this case)"/ + "LCCA"+ "city name in CAPS"/</b>
  * I am creating a list of cities (uploaded here as cities.txt) and using this list, generating the above pattern and storing it in search list
 ```
 data = []
