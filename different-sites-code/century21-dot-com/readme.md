@@ -42,6 +42,6 @@ print (search_list)
 
 **hello:**
 
-.[html](https://github.com/kaizercharania/Web-Scraping/edit/master/different-sites-code/century21-dot-com/readme.md)
+[html](https://github.com/kaizercharania/Web-Scraping/edit/master/different-sites-code/century21-dot-com/readme.md)
 
 <b>wjwdwjbdjw</b>
