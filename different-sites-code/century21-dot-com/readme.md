@@ -1,6 +1,6 @@
  
-
-```1. First step is to import all the libraries needed:
+1. First step is to import all the libraries needed:
+```
 import requests
 import pandas
 import re
@@ -27,3 +27,21 @@ for i in range(len(data1)):
     search_list.append(string_name)
 print (search_list)
 ```
+******************************************************************************************************************************
+
+
+
+# Heading
+## H1
+
+1. asdd
+2.s sss
+3.  scdcd
+
+* hello 
+
+**hello:**
+
+.[html](https://github.com/kaizercharania/Web-Scraping/edit/master/different-sites-code/century21-dot-com/readme.md)
+
+<b>wjwdwjbdjw</b>
