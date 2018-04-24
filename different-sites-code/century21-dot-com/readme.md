@@ -1,4 +1,4 @@
-In[]
+```python
 import requests
 import pandas
 import re
@@ -18,3 +18,4 @@ for i in range(len(data1)):
     string_name = string_name + data1[i].upper().replace(" ","")
     search_list.append(string_name)
 print (search_list)
+```
