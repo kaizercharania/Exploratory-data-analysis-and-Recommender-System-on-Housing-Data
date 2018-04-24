@@ -1,4 +1,5 @@
  
+*** This is done for Educational Purposes only ***
 1. First step is to import all the libraries needed:
 ```
 import requests
@@ -8,9 +9,9 @@ from bs4 import BeautifulSoup
 import lxml
 ```
 2. We need a list of cities for which we are going to scrape.
- * We need to understand the pattern of the url. The site century21 needs:
- * <b>domain_name/ + "city name" + "-" + "state_initials ('ca' in this case)"/ + "LCCA"+ "city name in CAPS"/</b>
- * I am creating a list of cities (uploaded here as cities.txt) and using this list, generating the above pattern and storing it in search list
+  * We need to understand the pattern of the url. The site century21 needs:
+  * <b>domain_name/ + "city name" + "-" + "state_initials ('ca' in this case)"/ + "LCCA"+ "city name in CAPS"/</b>
+  * I am creating a list of cities (uploaded here as cities.txt) and using this list, generating the above pattern and storing it in search list
 ```
 data = []
 myfile = open("/Users/kaizer/Desktop/cities.txt",encoding='utf-8')
@@ -27,8 +28,8 @@ for i in range(len(data1)):
 print (search_list)
 ```
 3. Now once you have the url, you need request the html file to perform extraction of the details you need to scrape.
- * I have used requests library for getting the html file and saving it the variable. 
- * Now after getting the html file, we will parse that file with BeautifulSoup using "html.parser"
+  * I have used requests library for getting the html file and saving it the variable. 
+  * Now after getting the html file, we will parse that file with BeautifulSoup using "html.parser"
 ```
 for i in (range(len(search_list))):
     page_requests =  requests.get("https://www.century21.com/real-estate/" + str(search_list[i]) )
@@ -46,8 +47,8 @@ for i in (range(len(search_list))):
         print("number of results: {}".format(num_results))
 ```
 5. After getting the pages, I need to iterate through every page and extract the information for each and every search.
- * There was no unique class available for all the search results, so I compared the part of the class which was same for all the house informations using regex and then I used Beautiful soup to extract that data
- * At the end of every page, there was a href tag which showed the next page link. So, I extracted that link and again the data was extracted from that till that link was not present.
+  * There was no unique class available for all the search results, so I compared the part of the class which was same for all the house informations using regex and then I used Beautiful soup to extract that data
+  * At the end of every page, there was a href tag which showed the next page link. So, I extracted that link and again the data was extracted from that till that link was not present.
  
 ```
         
@@ -100,24 +101,4 @@ df.to_csv("scraped_century21_data.csv")
 ```
 7. Here is the sample for that data generated:
 
-```
-
-```
-******************************************************************************************************************************
-
-
-
-# Heading
-## H1
-
-1. asdd
-2.s sss
-3.  scdcd
-
-* hello 
-
-**hello:**
-
-[html](https://github.com/kaizercharania/Web-Scraping/edit/master/different-sites-code/century21-dot-com/readme.md)
-
-<b>wjwdwjbdjw</b>
+<img width="843" alt="screen shot 2018-04-24 at 4 17 05 pm" src="https://user-images.githubusercontent.com/25184648/39218857-a05fba60-47db-11e8-992a-f3732a695d84.png">
