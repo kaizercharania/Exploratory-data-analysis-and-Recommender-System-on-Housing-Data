@@ -25,7 +25,7 @@ def my_form_post():
     baths_value = request.form['baths_value']
     beds_value = request.form['beds_value']
     area_value = request.form['area_value']
-    server = pymysql.connect(host = "ec2-54-190-28-80.us-west-2.compute.amazonaws.com",user = "rem-con", passwd = "root",autocommit=True)
+    server = pymysql.connect(host = "ec2-34-217-23-112.us-west-2.compute.amazonaws.com",user = "rem-con", passwd = "root",autocommit=True)
     cursor = server.cursor()
     sql = "USE house_list;"
     cursor.execute(sql)
